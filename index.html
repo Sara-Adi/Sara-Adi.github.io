@@ -1,224 +1,101 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <title>Sara Adi</title>
-    <meta name="description" content="Sara Adi: Portfolio">
-    <meta name="author" content="Sara Adi">
-
-    <meta property="og:title" content="Sara Adi: Portfolioe">
-    <meta property="og:type" content="website">
-
-    <!-- Load jquery, bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <!-- Custom CSS End -->
-
-    <!--fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
-
-
-
-    <!-- Load font awesome icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
-<body>
-    <div class="nav-intro">
-        <!-- navbar -->
-        <div id="navbar">
-            <nav class="navbar stick-top navbar-expand-lg navbar-dark ">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
-                        <li class="nav-item active ">
-                            <a class="nav-link " href="#hero "><span style="color: white ;">.home( )</span> <span class="sr-only ">(current)</span></a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="#about "><span style="color: white ;">.about( )</span></a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="#projects "> <span style="color: white ;">.projects( )</span></a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="#work-terms "><span style="color: white ;">.workTerms( )</span></a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="#contact "><span style="color: white ;">.contact( )</span></a>
-                        </li>
+<body class="light" id="top">
+    <header class="header center">
 
-                    </ul>
-                </div>
-            </nav>
+        <nav class="nav center">
+
+            <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fa fa-moon-o"></i>
+      </button>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- About -->
+        <div class="about center">
+            <h1>Sara Adi</h1>
+            <!-- <h2 class="about__role">Guelph, ON</h2> -->
+            <img class="profile-pic" src="photos/headshot.jpg">
+            <p class="about__desc">
+                Hey there!<br>I'm so happy you landed on my site, my name is Sara and I am a Software Enginner student who may have dazzeled here and there a little with companies such at Tulip (Softare Developer), and KPMG (Technology Risk Consultant).
+            </p>
+
+            <!-- <button type="button" class="about__contact center resume-btn">
+              <a href="SaraAdi-Resume.pdf" target="_blank">
+                <span class="btn btn--outline" ">Resume</span>
+              </a>
+             
+          </button> -->
+
+            <a href="SaraAdi-Resume.pdf" target="_blank" class="about__contact center resume-btn">Resume</a>
         </div>
 
-        <!-- hero -->
-        <div class="hero">
-            <div class="hero-main-text main-text">
-                <h1 style="font-size: 2.4vw;"> <span style="color: #c05769;">function</span> <span style="color: #7e65a6;">saraIs </span> <span style="color:#749dc6;">( ) {</span></h1>
-                <h2 style="font-size: 2.1vw;">&emsp; <span style="color: #c05769;">let</span> <span style="color: white">occupation = </span><span style="color: #749dc6;">'Full-Stack Developer'</span> <span style="color: white;">;</span></h2>
-                <h2 style="font-size: 2.1vw;">&emsp; <span style="color: #c05769;">let</span> <span style="color: white">currentJob = </span> <span style="color: #749dc6;">'Software Developer @Tulip'</span> <span style="color: white;">;</span></h2>
-                <h2 style="font-size: 2.1vw;">&emsp; <span style="color: #c05769;">let</span> <span style="color: white">hobbies = </span> <span style="color: #749dc6;">["reading", "baking", "hiking"]</span> <span style="color: white;">;</span></h2>
-                <h2 style="font-size: 2.1vw;">&emsp; <span style="color: #c05769;">let</span> <span style="color: white">resume = </span> <span style="color: #749dc6;">"download </span> <a style="color: #749dc6; text-decoration: none;" href="docs/SaraAdi-Resume.pdf" target="_blank">here"</a>                    <span style="color: white;">;</span> ;
-                </h2>
-                <h1 style="color: #749dc6; font-size: 2.4vw; ">};</h1>
-            </div>
-        </div>
+        <!-- Work terms -->
+        <section id="projects" class="section projects">
 
-        <div class="container">
-            <a data-scroll href="#about">
-                <div class="arrow"></div>
-            </a>
-        </div>
+            <div class="projects__grid">
+                <div class="project-1 project">
+                    <a href="pages/workterm1.html">
+                        <h3>Work Term 1</h3>
+                    </a>
+                    <p class="project__description">
+                        Tulip Retail<br>Software Developer
+                    </p>
+                </div>
 
-        <br><br><br>
+                <div class="project">
+                    <a href="pages/workterm2.html">
+                        <h3>Work Term 2</h3>
+                    </a>
+                    <p class="project__description">
+                        Technology Risk Consultant<br>KPMG
+                    </p>
+                </div>
 
-    </div>
-
-    <div id="about">
-
-
-        <div class="row container-fluid about-one">
-            <div class="col-lg-8 about-text">
-                <h2>Hi, I'm Sara👋 </h2>
-                <p> Hello! I build cool things using frameworks, tools, and languages…aka software! My interest started in 2019 when I decided to take an object-oriented programming course in high school. Ever since then, I have been dipping my toes in web
-                    and full-stack development, and now, I am a Software Developer within the Product Development team at Tulip Retail.
-                </p>
 
             </div>
-            <div class=" col-lg-4 ">
-                <img class="title-img img-responsive center-block d-block mx-auto" src="docs/img.png" alt=" ">
-            </div>
-        </div>
 
-        <div class="skills">
+        </section>
 
-            <div class="row">
-                <div class="col">
-                    <img style="width: 10vw; margin-left: auto; margin-right: auto; display: block;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
-                </div>
+    </main>
 
-                <div class="col">
-                    <img style="width: 10vw; margin-left: auto; margin-right: auto; display: block;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-line.svg" />
-                </div>
+    <footer class="footer">
 
-                <div class="col">
-                    <img style="width: 10vw; margin-left: auto; margin-right: auto; display: block;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" />
-                </div>
+        <a href="https://github.com/Sara-Adi" aria-label="github" class="link link--icon" target="_blank">
+            <i aria-hidden="true" class="fa fa-github"></i>
+        </a>
 
-                <div class="col">
-                    <img style="width: 10vw; margin-left: auto; margin-right: auto; display: block;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                </div>
+        <a href="https://www.linkedin.com/in/sara-adi/" aria-label="linkedin" class="link link--icon" target="_blank">
+            <i aria-hidden="true" class="fa fa-linkedin-square"></i>
+        </a>
 
-                <div class="col">
+        <a href="mailto:sadi@uoguelph.ca" class="link link--icon" target="_blank">
+            <i aria-hidden="true" class="fa fa-envelope"></i>
+        </a>
 
-                    <img style="width: 10vw; margin-left: auto; margin-right: auto; display: block;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" />
+    </footer>
 
-                </div>
-            </div>
-
-            <div class="row">
-
-                <div class="col">
-                    <img style="width: 10vw; margin-left: auto; margin-right: auto; display: block;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
-                </div>
-
-                <div class="col">
-                    <img style="width: 10vw; margin-left: auto; margin-right: auto; display: block;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-                </div>
-
-                <div class="col">
-                    <img style="width: 10vw; margin-left: auto; margin-right: auto; display: block;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" />
-                </div>
-
-                <div class="col">
-                    <img style="width: 10vw; margin-left: auto; margin-right: auto; display: block;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-                </div>
-
-                <div class="col">
-
-                    <img style="width: 10vw; margin-left: auto; margin-right: auto; display: block;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
-
-                </div>
-            </div>
-
-
-
-        </div>
-    </div>
-
-    <div id="projects">
-        <br><br><br>
-        <h2 class="subheader">Projects 📱💻</h2>
-        <img src="docs/person-digging-solid.svg" alt="" class="underconstruction">
-        <h3 class="project-body"> <span style="color:#c05769 ;">&#60;h1&#62;  </span> <span style="color: #749dc6;">Out for maintaince, sorry! </span> <span style="color:#c05769 ;">&#60;/h1&#62;</h3>
-    </div>
-
-    <div id="work-terms">
-        <br><br><br>
-        <h2 class="subheader">Work Terms 📅 🖥️</h2>
-        <img src="docs/person-digging-solid.svg" alt="" class="underconstruction">
-        <h3 class="project-body"> <span style="color:#c05769 ;">&#60;h1&#62;  </span> <span style="color: #749dc6;">Out for maintaince, sorry! </span> <span style="color:#c05769 ;">&#60;/h1&#62;</h3>
-        <br><br><br>
-    </div>
-
-
-
-    <div id="contact">
-        <div class="wrapper">
-            <header style="color:#c05769; text-align:center; font-size: 4.5vh">Contact Me!</header>
-            <form action="#">
-                <div class="dbl-field">
-                    <div class="field">
-                        <input type="text" name="name" placeholder="Enter your name">
-                        <i class='fas fa-user'></i>
-                    </div>
-                    <div class="field">
-                        <input type="text" name="email" placeholder="Enter your email">
-                        <i class='fas fa-envelope'></i>
-                    </div>
-                </div>
-                <div class="dbl-field">
-                    <div class="field">
-                        <input type="text" name="phone" placeholder="Enter your phone">
-                        <i class='fas fa-phone-alt'></i>
-                    </div>
-                    <div class="field">
-                        <input type="text" name="website" placeholder="Enter your website">
-                        <i class='fas fa-globe'></i>
-                    </div>
-                </div>
-                <div class="message">
-                    <textarea placeholder="Write your message" name="message"></textarea>
-                    <i class="material-icons">message</i>
-                </div>
-                <div class="button-area">
-                    <button type="submit">Send Message</button>
-                    <span></span>
-    </div>
-    </form>
-    </div>
-    </div>
-
-
-    <script src="script.js"></script>
-
+    <script src="./script.js"></script>
 </body>
 
 </html>
