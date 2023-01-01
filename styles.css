@@ -350,6 +350,14 @@ a {
 }
 
 
+/* kpmg here */
+
+.kpmg-heading {
+    font-size: 4rem;
+    color: blue;
+    font-weight: 600;
+}
+
 /* workterm one  */
 
 ul.goals-list {
