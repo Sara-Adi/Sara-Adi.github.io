@@ -358,6 +358,7 @@ a {
     font-weight: 600;
 }
 
+
 /* workterm one  */
 
 ul.goals-list {
@@ -437,6 +438,11 @@ li span {
 
 .subtitles {
     color: #d44c9c;
+    font-weight: 600;
+}
+
+.subtitles-2 {
+    color: #046ec4;
     font-weight: 600;
 }
 
