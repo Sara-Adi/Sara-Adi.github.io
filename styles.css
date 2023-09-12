@@ -224,6 +224,10 @@ main {
     margin-right: 0.8em;
 }
 
+.nested-goals {
+    margin-left: 1em;
+}
+
 
 /* .about .btn--outline {
     margin-right: 1em;
