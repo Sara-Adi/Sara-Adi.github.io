@@ -465,6 +465,11 @@ li span {
     width: 100%;
 }
 
+.img_office {
+    height: 70%;
+    width: 70%;
+}
+
 .photo_size {
     height: 65%;
     width: 65%;
