@@ -228,6 +228,10 @@ main {
     margin-left: 5em;
 }
 
+.bolded {
+    font-weight: bold;
+}
+
 
 /* .about .btn--outline {
     margin-right: 1em;
